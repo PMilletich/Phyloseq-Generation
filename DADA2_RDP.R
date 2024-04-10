@@ -79,8 +79,6 @@ taxa_total = rbind(taxa_total, taxa_3)
 taxa_total = rbind(taxa_total, taxa_4)
 taxa_total = rbind(taxa_total, taxa_5)
 
-setwd("~/Desktop/TEDDY_CeD/")
-
 #Save the dada2 output
 saveRDS(seqtab_pooled, "RDP_seqtab.1.RDS")
 saveRDS(seqtab.nochim_pooled, "seqtab.1.nochim.RDS")
